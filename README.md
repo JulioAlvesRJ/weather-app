@@ -12,19 +12,19 @@
 
 ## Site Demonstration
 <p align="center">
-  <img alt="demonstração do site" src="./scr/print1.png">
+  <img alt="demonstração do site" src="./src/print1.png">
 </p>
 
 ---
 
 <p align="center">
-  <img alt="demonstração do site" src="./scr/print2.png">
+  <img alt="demonstração do site" src="./src/print2.png">
 </p>
 
 ---
 
 <p align="center">
-  <img alt="demonstração do site" src="./scr/print3.png">
+  <img alt="demonstração do site" src="./src/print3.png">
 </p>
 
 ## 🧪 Technologies
