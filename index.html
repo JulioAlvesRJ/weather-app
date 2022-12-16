@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Weather App</title>
+
+    <!-- Fontawsome icons -->
+    <script src="https://kit.fontawesome.com/2ca7629d5d.js" crossorigin="anonymous"></script>
+
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Digite a sua localização">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="./src/404.png" alt="404">
+            <p>Oops! Local Inválido :/</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="./src/sol.png" alt="sol">
+            <p class="temperature">
+                22 <span>ºC</span>
+            </p>
+            <p class="description">Céu Limpo</p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                <span>5Km/h</span>
+                <p>Humidade</p>
+            </div>
+        </div>
+        <div class="wind">
+            <i class="fa-solid fa-water"></i>
+            <div class="text">
+                <span>50%</span>
+                <p>Velocidade do Vento</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS file -->
+    <script src="script.js" type="text/javascript"></script>
+
+</body>
+
+</html>
